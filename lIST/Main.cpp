@@ -87,7 +87,7 @@ int Length(myList head)
 	int length = 0;
 	while (head) {
 		length++;
-		head = head++;
+		head = head->next;
 	}
 	return length;
 }
